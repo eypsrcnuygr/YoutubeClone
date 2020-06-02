@@ -1,3 +1,7 @@
+body {
+    background-color: beige;
+}
+
 .Navbar-container {
     display: table;
     width: 100%;
@@ -20,6 +24,9 @@
 
 .Video-content iframe {
     margin-top: 25px;
+    width: 100%;
+    height: 500px;
+    background-color: white;
 }
 
 .Video-content img {
@@ -32,16 +39,19 @@
 }
 
 .Video-informations {
-    display: inline-block;
+    display: flex;
 }
 
-.Video-informations p {
-    float: right;
+.Video-informations #Explanations {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 40px;
 }
 
 .Video-HowMany {
-    display: inline-block;
-    margin-left: 250px;
+    margin-left: 400px;
+    float: right;
+    
 }
 
 .Video-HowMany h3 {
@@ -51,6 +61,7 @@
 .Video-options {
     display: flex;
     width: 20%;
+    
 }
 
 .Video-options p {
@@ -58,16 +69,59 @@
 }
 .right-side img{
     
-    width: 150px;
-    height: 80px;
+    width: 250px;
+    height: 125px;
+    margin-left: 10px;
 }
 .right-side {
-    float: right;
+    display: relative;
+    float:right; 
+    background-color: white; 
+}
     
+.right-side div div {
+    display: inline-block;
+    margin-left: 25px;
 }
 
-.right-side div div {
-    float: right;
+.right-side div {
+    margin-top: 25px;
+    margin-right: 25px;
 }
+
+.Video-informations-container {
+    background-color: white;
+    display: flex;
+}
+
+#Explanations {
+    display: flex;
+    position:relative;
+    height:100%;
+}
+
+#Explanations button, #Explanations p {
+    flex-grow: 1;
+    margin-left: 100px;  
+}
+
+#Explanations h4 {
+    margin-left: 15px;
+}
+
+#Explanations button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+#Explanations p {
+    position: absolute;
+    left: 180px;
+    top: 20%;
+}
+
+
 
 
