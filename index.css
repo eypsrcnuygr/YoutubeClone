@@ -5,11 +5,14 @@ body {
 .Navbar-container {
     display: table;
     width: 100%;
+    background-color: gray;
+    margin-top: -7px;
 }
  
 .Navbar-container img {
     width: 50px;
     height: 50px;
+    margin-bottom: 10px;
 }
 
 .Navbar-container form {
@@ -23,14 +26,13 @@ body {
 }
 
 .Navbar-images {
-    display: inline-block;
     float: right;
 }
 
 .Video-content iframe {
     margin-top: 25px;
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-color: white;
 }
 
@@ -40,7 +42,7 @@ body {
 }
 
 .Video-content {
-    width: 60%;
+    width: 75%;
 }
 
 .Video-informations {
@@ -130,6 +132,10 @@ body {
     position: absolute;
     left: 180px;
     top: 20%;
+}
+
+.Description p {
+    width: 75%;
 }
 
 
