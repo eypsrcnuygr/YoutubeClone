@@ -56,4 +56,18 @@
 .Video-options p {
     flex-grow: 1;
 }
+.right-side img{
+    
+    width: 150px;
+    height: 80px;
+}
+.right-side {
+    float: right;
+    
+}
+
+.right-side div div {
+    float: right;
+}
+
 
