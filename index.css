@@ -6,7 +6,7 @@ body {
     display: table;
     width: 100%;
 }
-
+ 
 .Navbar-container img {
     width: 50px;
     height: 50px;
@@ -15,6 +15,11 @@ body {
 .Navbar-container form {
     display: table-cell;
     text-align: center;
+    vertical-align: middle;
+}
+.Navbar-container form input {
+    width: 350px;
+    height: 25px;
 }
 
 .Navbar-images {
@@ -82,11 +87,14 @@ body {
 .right-side div div {
     display: inline-block;
     margin-left: 25px;
+    vertical-align: top;
+    
 }
 
 .right-side div {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-right: 25px;
+    
 }
 
 .Video-informations-container {
@@ -114,6 +122,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translateY(-50%);
+    background-color: red;
+    color: white;
 }
 
 #Explanations p {
