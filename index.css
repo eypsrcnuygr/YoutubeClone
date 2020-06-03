@@ -204,7 +204,16 @@ img {
 }
 
 fieldset input {
+   height: 100%;
+}
+
+fieldset button img {
+    height: 15px;
     margin: auto;
+}
+
+fieldset {
+    border: none;
 }
 
 
