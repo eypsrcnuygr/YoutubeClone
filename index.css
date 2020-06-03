@@ -1,12 +1,13 @@
-body {
-    background-color: beige;
+/* main {
+    background: transparent;
+    background-color: #f9f9f9;
 }
-
 .Navbar-container {
     display: table;
     width: 100%;
-    background-color: gray;
+    background-color:white;
     margin-top: -7px;
+    height: 80%;
 }
  
 .Navbar-container img {
@@ -27,6 +28,26 @@ body {
 
 .Navbar-images {
     float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar-images div form fieldset {
+    display: table;
+}
+
+.Navbar-images div form fieldset img {
+    width: 40px;
+    height: 30px;
+}
+
+
+
+.Navbar-images div form fieldset input {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    width: 60px;
 }
 
 .Video-content iframe {
@@ -56,9 +77,16 @@ body {
 }
 
 .Video-HowMany {
+    display: flex;
     margin-left: 400px;
-    float: right;
-    
+    float: right;   
+}
+
+.Video-HowMany img {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 .Video-HowMany h3 {
@@ -136,7 +164,50 @@ body {
 
 .Description p {
     width: 75%;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
+
+img {
+    width: 40px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.icons {
+    display: flex;
+    
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+.search {
+    width: 500px;
+    display: flex;
+}
+
+.search form {
+    width: 100%;
+}
+
+#button {
+    width: 50px;
+}
+
+#text {
+    width: 70%;
+}
+
+fieldset input {
+    margin: auto;
+}
+
+
 
 
 
