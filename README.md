@@ -25,3 +25,5 @@ Sidebar Recommended videos
 -It shows the recommended video’s thumbnail preview (as image not as an actual video).
 -It shows the title of the video.
 -It shows the number of views.
+
+![ScreenShot](./assets/one.png?raw=true)
