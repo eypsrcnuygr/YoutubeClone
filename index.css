@@ -1,171 +1,3 @@
-/* main {
-    background: transparent;
-    background-color: #f9f9f9;
-}
-.Navbar-container {
-    display: table;
-    width: 100%;
-    background-color:white;
-    margin-top: -7px;
-    height: 80%;
-}
- 
-.Navbar-container img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-}
-
-.Navbar-container form {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-.Navbar-container form input {
-    width: 350px;
-    height: 25px;
-}
-
-.Navbar-images {
-    float: right;
-    display: flex;
-    justify-content: space-between;
-}
-
-.Navbar-images div form fieldset {
-    display: table;
-}
-
-.Navbar-images div form fieldset img {
-    width: 40px;
-    height: 30px;
-}
-
-
-
-.Navbar-images div form fieldset input {
-    display: inline-block;
-    vertical-align: top;
-    border: none;
-    width: 60px;
-}
-
-.Video-content iframe {
-    margin-top: 25px;
-    width: 100%;
-    height: 700px;
-    background-color: white;
-}
-
-.Video-content img {
-    width: 50px;
-    height: 50px;
-}
-
-.Video-content {
-    width: 75%;
-}
-
-.Video-informations {
-    display: flex;
-}
-
-.Video-informations #Explanations {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 40px;
-}
-
-.Video-HowMany {
-    display: flex;
-    margin-left: 400px;
-    float: right;   
-}
-
-.Video-HowMany img {
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    vertical-align: bottom;
-}
-
-.Video-HowMany h3 {
-    float: right;  
-}
-
-.Video-options {
-    display: flex;
-    width: 20%;
-    
-}
-
-.Video-options p {
-    flex-grow: 1;
-}
-.right-side img{
-    
-    width: 250px;
-    height: 125px;
-    margin-left: 10px;
-}
-.right-side {
-    display: relative;
-    float:right; 
-    background-color: white; 
-}
-    
-.right-side div div {
-    display: inline-block;
-    margin-left: 25px;
-    vertical-align: top;
-    
-}
-
-.right-side div {
-    margin-top: 20px;
-    margin-right: 25px;
-    
-}
-
-.Video-informations-container {
-    background-color: white;
-    display: flex;
-}
-
-#Explanations {
-    display: flex;
-    position:relative;
-    height:100%;
-}
-
-#Explanations button, #Explanations p {
-    flex-grow: 1;
-    margin-left: 100px;  
-}
-
-#Explanations h4 {
-    margin-left: 15px;
-}
-
-#Explanations button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%);
-    background-color: red;
-    color: white;
-}
-
-#Explanations p {
-    position: absolute;
-    left: 180px;
-    top: 20%;
-}
-
-.Description p {
-    width: 75%;
-} */
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -220,8 +52,10 @@ main {
     display: flex;
     height: 100%;
     justify-content: space-evenly;
-    margin-left: 50px;
+    padding-left: 150px;
     background-color: #f9f9f9;
+    margin-top: 20px;
+    
 }
 
 main .left-side {
@@ -229,8 +63,8 @@ main .left-side {
 }
 
 .video-content {
-    width: 80%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
 }
 .video-content iframe {
     width: 100%;
@@ -240,7 +74,7 @@ main .left-side {
 .video-descriptions {
     display: flex;
     margin-top: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .video-descriptions div {
@@ -273,7 +107,12 @@ main .left-side {
 }
 
 .video-explanations {
-    width: 70%;
+    width: 100%;
+}
+
+.video-explanations button {
+    background-color: red;
+    color: white;
 }
 
 #Odin {
