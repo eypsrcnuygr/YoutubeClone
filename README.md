@@ -26,3 +26,7 @@ Sidebar Recommended videos
 -It shows the title of the video.
 -It shows the number of views.
 
+<<<<<<< HEAD
+=======
+![ScreenShot](./assets/one.png?raw=true)
+>>>>>>> 43f0e54e9e4e94ac88f25a1c0cc3b16d527db530
