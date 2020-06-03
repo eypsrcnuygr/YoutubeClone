@@ -216,8 +216,75 @@ fieldset {
     border: none;
 }
 
+main {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    background-color: #f9f9f9;
+}
 
+main .left-side {
+    width: 70%;
+}
 
+.video-content {
+    width: 80%;
+    height: 70%;
+}
+.video-content iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-descriptions {
+    display: flex;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.video-descriptions div {
+    width: 100%;
+}
+
+.video-descriptions img {
+    margin-top: 15px;
+}
+.icons {
+    justify-content: flex-end;
+}
+
+.video-options {
+    width: 100%;
+}
+
+.icons p {
+    margin-top: 25px;
+}
+
+.video-explanations div div {
+    display: flex;
+}
+
+.video-explanations div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.video-explanations {
+    width: 70%;
+}
+
+#Odin {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+#last-avatar {
+    height: 40px;
+    border-radius: 50%;
+}
 
 
 
