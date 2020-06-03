@@ -285,6 +285,15 @@ main .left-side {
     height: 40px;
     border-radius: 50%;
 }
+.right-side > aside > div {
+    display: flex;
+}
+.right-side > aside > div >div {
+    margin-left: 15px;
+}
 
-
+.right-side img {
+    width: 200px;
+    height: 125px;
+}
 
