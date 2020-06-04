@@ -1,32 +1,67 @@
-# YoutubeClone
-Microverse first project by Aldana and Sercan
+# Project Name
 
-The file contains:
+> This is a youtube clone project built  with HTML and CSS.
 
-Navigation bar
--It has an embedded image that represents a logo.
--The logo is aligned to the leftmost part of the navbar.
--It has an input tag that represents a search bar.
--The search bar is aligned to the middle of the navbar.
--It has a button tag that represents the search button.
--The search button is at the end (rightmost part) of the search bar.
--It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
+![screenshot](./assets/youtubecloneScreenshoot)
 
-Video
--It is displayed.
--It shows the video title.
--It shows the number of views.
--It has like and dislike icons.
--It has a share button.
--It shows the avatar of the user who uploaded the video.
--It has a subscribe button.
+The page looks a little bit like the Youtube original
 
-Sidebar Recommended videos
--It shows the recommended video’s thumbnail preview (as image not as an actual video).
--It shows the title of the video.
--It shows the number of views.
+## Built With
 
-<<<<<<< HEAD
-=======
-![ScreenShot](./assets/one.png?raw=true)
->>>>>>> 43f0e54e9e4e94ac88f25a1c0cc3b16d527db530
+- HTML,
+- CSS,
+- Netlify
+
+## Live Demo
+
+[Live Demo Link](https://hopeful-spence-2bcf93.netlify.app)
+
+
+## Getting Started
+
+**Use Netlify link to check the site.
+
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+### Setup
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
+
+
+
+## Authors
+
+👤 **Author1**
+
+- Github: [@githubhandle](https://github.com/eypsrcnuygr)
+- Twitter: [@twitterhandle](https://twitter.com/eypsrcnuygr)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ey%C3%BCp-sercan-uygur-a55989a1/)
+
+👤 **Author2**
+
+- Github: [@githubhandle](https://github.com/AlduLonghi)
+- Twitter: [@twitterhandle]( https://twitter.com/AbrilLonghi)
+- Linkedin: [linkedin](https://www.linkedin.com/in/aldana-abril-longhi-a842ba1a7/ )
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/eypsrcnuygr/YoutubeClone/issues/3#issue-630580323).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+
+
