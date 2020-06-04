@@ -2,7 +2,7 @@
 
 > This is a youtube clone project built  with HTML and CSS.
 
-![screenshot](./assets/youtubecloneScreenshoot)
+![img](./assets/youtubecloneScreenshoot)
 
 The page looks a little bit like the Youtube original
 
