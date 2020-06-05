@@ -1,0 +1,279 @@
+body {
+    margin: 0px;
+    width: 100%;
+}
+header{
+    display: flex;
+    margin: 0px;
+    width: 100%;
+}
+.navbar-leftside {
+   width: 30%;
+}
+.navbar-middleside {
+    width: 40%;
+    display:flex;
+    justify-content: center;
+}
+.navbar-rigthside {
+    width: 30%;
+}
+.logo {
+    width: 70px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+.user {
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.navbar-rigthside > ul {
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+    padding-left: 0;
+}
+.icons-1 {
+    width: 20px;
+    height: 20px;
+    margin: 10px 15px;
+}
+.navbar-middleside > form {
+    width: 250px;
+}
+.icon-left {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+.navbar-middleside > form {
+    margin: auto;
+    display:flex;
+    justify-content: stretch;
+    height: 55%;
+    width: 90%;
+    border:solid 0.5px rgb(195, 195, 195);
+}
+#searchInput {
+    width: 90%;
+    border: none;
+}
+
+#searchInput:focus {
+    outline: none;
+}
+#searchButton {
+    width: 10%;
+    border: none;
+    color: gray;
+}
+#magnifying-lent {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.bell-icon {
+    width: 23px;
+    height: 23px;
+    margin: 10px 15px;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    
+}
+
+main .left-side {
+    width: 70%;
+}
+
+.video-content {
+    width: 100%;
+    height: 100%;
+}
+.video-content iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-descriptions {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.video-descriptions div {
+    width: 100%;
+}
+
+.video-descriptions img {
+    margin-top: 15px;
+}
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10%;
+}
+
+.video-options {
+    width: 100%;
+    border-bottom: solid 0.25px grey;
+    padding-bottom: 10px;
+    
+}
+.share-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icons p {
+    height: 100%;
+    font-size: 18px;
+    margin: 0px 10px 0px 10px;
+    font-family:  Helvetica;
+}
+.icons > img {
+    height: 18px;
+    width: 18px;
+    margin: 0px
+
+}
+
+.video-explanations div div {
+    display: flex;
+}
+
+.video-explanations div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.video-explanations {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.video-explanations button {
+    background-color: red;
+    color: white;
+}
+
+#Odin {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+#last-avatar {
+    height: 40px;
+    border-radius: 50%;
+}
+.right-side > div > div {
+    display: flex;
+}
+
+
+.right-side img {
+    width: 200px;
+    height: 125px;
+}
+
+
+
+header{
+    display: flex;
+    margin: 0px;
+}
+.navbar-leftside {
+   width: 30%;
+}
+.navbar-middleside {
+    width: 40%;
+    display:flex;
+    justify-content: center;
+}
+.navbar-rigthside {
+    width: 30%;
+}
+.logo {
+    width: 70px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+.user {
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.navbar-rigthside > ul {
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+}
+.icons-1 {
+    width: 20px;
+    height: 20px;
+    margin: 10px 15px;
+}
+.navbar-middleside > form {
+    width: 250px;
+}
+.icon-left {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+.navbar-middleside > form {
+    margin: auto;
+    display:flex;
+    justify-content: stretch;
+    height: 55%;
+    width: 90%;
+    border:solid 0.5px rgb(195, 195, 195);
+}
+#searchInput {
+    width: 90%;
+    border: none;
+}
+#searchButton {
+    width: 10%;
+    border: none;
+    color: gray;
+}
+#magnifying-lent {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.bell-icon {
+    width: 23px;
+    height: 23 px;
+    margin: 10px 15px;
+}
+
+.right-explanations {
+    margin-left: 15px;
+}
