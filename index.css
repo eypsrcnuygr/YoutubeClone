@@ -67,6 +67,10 @@ header{
     width: 90%;
     border: none;
 }
+
+#searchInput:focus {
+    outline: none;
+}
 #searchButton {
     width: 10%;
     border: none;
