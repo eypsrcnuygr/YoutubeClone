@@ -1,9 +1,11 @@
 body {
     margin: 0px;
+    width: 100%;
 }
 header{
     display: flex;
     margin: 0px;
+    width: 100%;
 }
 .navbar-leftside {
    width: 30%;
@@ -37,6 +39,7 @@ header{
     height: 100%;
     margin: 0px;
     width: 100%;
+    padding-left: 0;
 }
 .icons-1 {
     width: 20px;
@@ -76,7 +79,7 @@ header{
 }
 .bell-icon {
     width: 23px;
-    height: 23 px;
+    height: 23px;
     margin: 10px 15px;
 }
 
@@ -119,7 +122,7 @@ main .left-side {
 .icons {
     display: flex;
     justify-content: flex-end;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .video-options {
@@ -187,9 +190,7 @@ main .left-side {
 }
 
 
-body {
-    margin: 0px;
-}
+
 header{
     display: flex;
     margin: 0px;
@@ -267,4 +268,8 @@ header{
     width: 23px;
     height: 23 px;
     margin: 10px 15px;
+}
+
+.right-explanations {
+    margin-left: 15px;
 }
