@@ -1,39 +1,83 @@
-nav {
+body {
+    margin: 0px;
+}
+header{
     display: flex;
-    justify-content: space-between;
+    margin: 0px;
 }
-
-.icons {
-    display: flex;  
+.navbar-leftside {
+   width: 30%;
 }
-
-.icons img {
+.navbar-middleside {
+    width: 40%;
+    display:flex;
+    justify-content: center;
+}
+.navbar-rigthside {
+    width: 30%;
+}
+.logo {
+    width: 70px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+.user {
     width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.navbar-rigthside > ul {
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    vertical-align: middle;
     height: 100%;
+    margin: 0px;
+    width: 100%;
 }
-
-.icons p {
-    height: 100%;
+.icons-1 {
+    width: 20px;
+    height: 20px;
+    margin: 10px 15px;
 }
-
-
-
-#text {
-    width: 70%;
+.navbar-middleside > form {
+    width: 250px;
 }
-
-fieldset input {
-   height: 100%;
+.icon-left {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 12px;
+    margin-left: 15px;
 }
-
-fieldset button img {
-    height: 15px;
+.navbar-middleside > form {
     margin: auto;
+    display:flex;
+    justify-content: stretch;
+    height: 55%;
+    width: 90%;
+    border:solid 0.5px rgb(195, 195, 195);
 }
-
-fieldset {
+#searchInput {
+    width: 90%;
     border: none;
-    display: block;
+}
+#searchButton {
+    width: 10%;
+    border: none;
+    color: gray;
+}
+#magnifying-lent {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.bell-icon {
+    width: 23px;
+    height: 23 px;
+    margin: 10px 15px;
 }
 
 main {
@@ -73,15 +117,33 @@ main .left-side {
     margin-top: 15px;
 }
 .icons {
+    display: flex;
     justify-content: flex-end;
+    margin-top: 15%;
 }
 
 .video-options {
     width: 100%;
+    border-bottom: solid 0.25px grey;
+    padding-bottom: 10px;
+    
+}
+.share-icon {
+    width: 30px;
+    height: 30px;
 }
 
 .icons p {
-    margin-top: 25px;
+    height: 100%;
+    font-size: 18px;
+    margin: 0px 10px 0px 10px;
+    font-family:  Helvetica;
+}
+.icons > img {
+    height: 18px;
+    width: 18px;
+    margin: 0px
+
 }
 
 .video-explanations div div {
@@ -96,6 +158,8 @@ main .left-side {
 
 .video-explanations {
     width: 100%;
+    margin-top: 20px;
+
 }
 
 .video-explanations button {
