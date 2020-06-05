@@ -3,33 +3,20 @@ nav {
     justify-content: space-between;
 }
 
-img {
-    width: 40px;
-    height: 30px;
-    margin-left: 20px;
-}
-
 .icons {
-    display: flex;
-    
+    display: flex;  
 }
 
-#avatar {
-    border-radius: 50%;
+.icons img {
+    width: 30px;
+    height: 100%;
 }
 
-.search {
-    width: 500px;
-    display: flex;
+.icons p {
+    height: 100%;
 }
 
-.search form {
-    width: 100%;
-}
 
-#button {
-    width: 50px;
-}
 
 #text {
     width: 70%;
@@ -46,6 +33,7 @@ fieldset button img {
 
 fieldset {
     border: none;
+    display: block;
 }
 
 main {
@@ -124,15 +112,95 @@ main .left-side {
     height: 40px;
     border-radius: 50%;
 }
-.right-side > aside > div {
+.right-side > div > div {
     display: flex;
 }
-.right-side > aside > div >div {
-    margin-left: 15px;
-}
+
 
 .right-side img {
     width: 200px;
     height: 125px;
 }
 
+
+body {
+    margin: 0px;
+}
+header{
+    display: flex;
+    margin: 0px;
+}
+.navbar-leftside {
+   width: 30%;
+}
+.navbar-middleside {
+    width: 40%;
+    display:flex;
+    justify-content: center;
+}
+.navbar-rigthside {
+    width: 30%;
+}
+.logo {
+    width: 70px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+.user {
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.navbar-rigthside > ul {
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+}
+.icons-1 {
+    width: 20px;
+    height: 20px;
+    margin: 10px 15px;
+}
+.navbar-middleside > form {
+    width: 250px;
+}
+.icon-left {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+.navbar-middleside > form {
+    margin: auto;
+    display:flex;
+    justify-content: stretch;
+    height: 55%;
+    width: 90%;
+    border:solid 0.5px rgb(195, 195, 195);
+}
+#searchInput {
+    width: 90%;
+    border: none;
+}
+#searchButton {
+    width: 10%;
+    border: none;
+    color: gray;
+}
+#magnifying-lent {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.bell-icon {
+    width: 23px;
+    height: 23 px;
+    margin: 10px 15px;
+}

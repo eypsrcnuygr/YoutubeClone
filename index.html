@@ -7,25 +7,26 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img src="./assets/youtubeLogo.webp" alt="Logo" />
+    <header>
+        <div class="navbar-leftside">
+        <img class="icon-left" src="./assets/hamburgermenu.png"/>
+        <img class="logo"src="./assets/YouTube-Logo.png"/>
         </div>
-        <div class=" search">
-            <form>
-                <fieldset>
-                    <input type="text" name="search" placeholder="Search" id="text" />
-                    <button><img src="./assets/search.png" alt="search" /></button>
-                </fieldset>
-            </form>
-        </div>
-        <div class="icons">
-            <div><a><img src="./assets/camIcon.png" alt="Icon" /></a></div>
-            <div><a><img src="./assets/appsIcon.png" alt="IconApp" /></a></div>
-            <div><a><img src="./assets/notificationBellIcon.png" alt="Notification" /></a></div>
-            <div><a><img src="./assets/bunugor.jpg" id = "avatar" alt="Avatar"/></a></div>
-        </div>
-    </nav>
+        <div class="navbar-middleside">
+           <form>
+                <input id="searchInput" type="text" target="blank"/>
+                <button id="searchButton"><img id="magnifying-lent"src="./assets/search.svg"/></button>
+           </form>
+       </div>
+        <nav class="navbar-rigthside">
+            <ul>
+                <li><img class="icons-1" src="./assets/camIcon.png"/></li>
+                <li><img class="icons-1" src="./assets/appsIcon.png" /></li>
+                <li><img class="icons-1" src="./assets/notificationBellIcon.png"/></li>
+                <li ><img class="user" src="./assets/bunugor.jpg"/></li>
+            </ul>
+        </nav>
+    </header>        
     <main>
        
         <section class="left-side">
@@ -79,8 +80,8 @@
                 </div>
             </div>
         </section>
-        <div class="right-side">
-            <aside>
+        <aside class="right-side">
+            <div>
                 <div>
                     <div>
                         <img src="./assets/landscape1.jpeg" alt="landscape"/>
@@ -135,9 +136,8 @@
                         <p>33.555</p>
                     </div>
                 </div>
-
-            </aside>
-        </div>
+            </div>
+        </aside>    
     </main>
    
    
